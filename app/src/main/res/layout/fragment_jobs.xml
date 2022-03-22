@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2D67A5"
+    android:background="#B64A9F"
     tools:context=".profile">
 
     <!-- TODO: Update blank fragment layout -->
@@ -13,6 +13,6 @@
         android:gravity="center"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:text="NETWORK" />
+        android:text="JOBS" />
 
 </FrameLayout>

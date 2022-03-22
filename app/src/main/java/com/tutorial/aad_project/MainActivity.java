@@ -29,12 +29,15 @@ public class MainActivity extends AppCompatActivity {
                 if (id == R.id.profile){
                     loadFrag(new profile());
                 }
-                else{ // (id == R.id.network)
+                else if (id == R.id.network){
                     loadFrag(new network());
                 }
-//                else{
-//                    loadFrag(new Dynfrag3());
-//                }
+                else if (id == R.id.activity){
+                    loadFrag(new activity());
+                }
+                else{
+                    loadFrag(new jobs());
+                }
                 return true;
             }
         });
