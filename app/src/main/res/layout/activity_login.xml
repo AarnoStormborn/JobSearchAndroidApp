@@ -27,6 +27,7 @@
         android:ems="15"
         android:backgroundTint="@color/black"
         android:paddingTop="25dp"
+        android:inputType="textPassword"
         android:id="@+id/password"
         />
 
