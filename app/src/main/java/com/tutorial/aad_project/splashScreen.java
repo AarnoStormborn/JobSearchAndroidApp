@@ -13,7 +13,7 @@ public class splashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        Intent splash = new Intent(this, MainActivity.class);
+        Intent splash = new Intent(this, login.class);
 
         getSupportActionBar().hide();
 
