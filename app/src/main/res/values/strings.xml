@@ -11,4 +11,7 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="about_section">Aspiring Data Scientist. AI and ML enthusiast. Tech Geek. Currently pursuing b tech in data science. My goal is to become a machine learning engineer</string>
+    <string name="work_designation">HRD - Rotoract Club of Bombay Airport</string>
+    <string name="experience">HRD - Rotoract Club of Bombay Airport\nFeb 2022 - Present\n\n BOD Club Services - Rotoract Club of Bombay Airport\nFeb 2021 - Feb 2022\n\nMarketing executive - Viral fission\n March 2020 - Feb 2021</string>
 </resources>

@@ -46,7 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:text="HRD - Rotoract Club of Bombay Airport"
+                android:text="@string/work_designation"
                 android:fontFamily="sans-serif-black"
                 />
 
@@ -62,9 +62,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Contact info: anishasinghania@gmail.com"
+                android:text="anishasinghania@gmail.com"
                 android:textSize="16sp"
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 />
 
             <TextView
@@ -77,84 +78,67 @@
                 android:textColor="@color/black"
                 />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="20dp"
-                android:text="I am an aspiring Data Scientist. I am a Second Year student. xjdjrisjndnfjsaoof"
-                android:layout_marginBottom="20dp"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                />
+            <FrameLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_section"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    />
+
+            </FrameLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hi I am Anisha. I am 4 feet tall"
-                android:layout_marginBottom="20dp"
-                android:textSize="16sp"
+                android:text="Experience"
                 android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
                 />
+
+            <FrameLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/experience"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textAlignment="textStart"
+                    />
+
+            </FrameLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hi I am Anisha. I am 4 feet tall"
-                android:layout_marginBottom="20dp"
-                android:textSize="16sp"
+                android:text="Skills"
                 android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
                 />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hi I am Anisha. I am 4 feet tall"
-                android:layout_marginBottom="20dp"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                />
+            <FrameLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Python Programming\nData Analytics\nProblem Solving"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textAlignment="textStart"
+                    />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hi I am Anisha. I am 4 feet tall"
-                android:layout_marginBottom="20dp"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hi I am Anisha. I am 4 feet tall"
-                android:layout_marginBottom="20dp"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hi I am Anisha. I am 4 feet tall"
-                android:layout_marginBottom="20dp"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hi I am Anisha. I am 4 feet tall"
-                android:layout_marginBottom="20dp"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hi I am Anisha. I am 4 feet tall"
-                android:layout_marginBottom="20dp"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                />
-
+            </FrameLayout>
 
         </LinearLayout>
     </ScrollView>
