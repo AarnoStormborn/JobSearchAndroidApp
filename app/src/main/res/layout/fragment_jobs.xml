@@ -6,7 +6,7 @@
     android:gravity="center"
     android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#B64A9F"
+    android:background="#4EC56B"
     tools:context=".profile">
 
     <!-- TODO: Update blank fragment layout -->
@@ -70,8 +70,6 @@
             app:cardCornerRadius="20dp"
             app:cardElevation="20dp"
             />
-
-
 
 
 
