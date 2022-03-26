@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mansi/OneDrive/Desktop/project/aadProject/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Mansi/OneDrive/Desktop/project/aadProject/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Mansi/OneDrive/Desktop/project/aadProject/app/src/main/res/layout/fragment_jobs.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Mansi/OneDrive/Desktop/project/aadProject/app/src/main/res/layout/fragment_network.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/harsh/OneDrive/Desktop/github/aadProject/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2255" />
         <entry key="..\:/Users/harsh/OneDrive/Desktop/github/aadProject/app/src/main/res/layout/fragment_jobs.xml" value="0.1" />
         <entry key="..\:/Users/harsh/OneDrive/Desktop/github/aadProject/app/src/main/res/layout/fragment_network.xml" value="0.26992753623188404" />
