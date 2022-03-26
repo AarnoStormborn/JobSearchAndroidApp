@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:gravity="center_vertical"
     android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#4EC56B"
@@ -14,62 +14,200 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginLeft="22dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp">
 
         <androidx.cardview.widget.CardView
         android:layout_width="350dp"
         android:layout_height="200dp"
         app:cardCornerRadius="20dp"
-        app:cardElevation="20dp" />
+        app:cardElevation="20dp" >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="DEAN"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NMIMS MPSTME"
+
+                android:textSize="35sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7,000"
+                    android:textSize="35sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
-            android:layout_marginTop="20dp"
             android:layout_width="350dp"
             android:layout_height="200dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="20dp"
-            />
+            android:layout_marginTop="25dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ACCOUNTANT"
+                    android:textStyle="bold"
+                    android:textSize="40sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MICROSOFT"
+                    android:textSize="35sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="20,000"
+                    android:textSize="35sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
-            android:layout_marginTop="20dp"
             android:layout_width="350dp"
             android:layout_height="200dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="20dp"
-            />
+            android:layout_marginTop="25dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="CIVIL ENGINEER"
+                    android:textStyle="bold"
+                    android:textSize="40sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AMBUJA CEMENT"
+                    android:textSize="35sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12,000"
+                    android:textSize="35sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
-            android:layout_marginTop="20dp"
             android:layout_width="350dp"
             android:layout_height="200dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="20dp"
-            />
+            android:layout_marginTop="25dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="IT MANAGER"
+                    android:textStyle="bold"
+                    android:textSize="40sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TCS"
+                    android:textSize="35sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="17,000"
+                    android:textSize="35sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
-            android:layout_marginTop="20dp"
             android:layout_width="350dp"
             android:layout_height="200dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="20dp"
-            />
+            android:layout_marginTop="25dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="RECEPTIONIST"
+                    android:textStyle="bold"
+                    android:textSize="40sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DUNDER MIFFLIN"
+                    android:textSize="35sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11,00,000"
+                    android:textSize="35sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
-            android:layout_marginTop="20dp"
             android:layout_width="350dp"
             android:layout_height="200dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="20dp"
-            /><androidx.cardview.widget.CardView
-        android:layout_marginTop="20dp"
-        android:layout_width="350dp"
-        android:layout_height="200dp"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="20dp"
-        />
-        <androidx.cardview.widget.CardView
-            android:layout_marginTop="20dp"
-            android:layout_width="350dp"
-            android:layout_height="200dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="20dp"
-            />
+            android:layout_marginTop="25dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="MECHANIC"
+                    android:textStyle="bold"
+                    android:textSize="40sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KUKREJA PALACE"
+                    android:textSize="35sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="22,000"
+                    android:textSize="35sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
 
 
 
