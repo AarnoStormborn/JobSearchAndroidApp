@@ -18,23 +18,19 @@
         android:layout_marginTop="20dp">
 
         <androidx.cardview.widget.CardView
-<<<<<<< HEAD
+
             android:layout_width="350dp"
             android:layout_height="200dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="20dp" >
-=======
-        android:layout_width="350dp"
-        android:layout_height="200dp"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="20dp" >
->>>>>>> 1fb4a8f8d06e25a175318098753256dfd1b0057d
+
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_gravity="center">
-<<<<<<< HEAD
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -46,28 +42,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="NMIMS MPSTME"
-
                     android:textSize="35sp" />
-=======
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="DEAN"
-                android:textStyle="bold"
-                android:textSize="40sp"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="NMIMS MPSTME"
 
-                android:textSize="35sp" />
->>>>>>> 1fb4a8f8d06e25a175318098753256dfd1b0057d
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="7,000"
                     android:textSize="35sp" />
+
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
